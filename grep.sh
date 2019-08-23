@@ -1,4 +1,5 @@
 #!/bin/sh
+output=$output
 cd $output/3_js
 grep -oP "\.html"  *>>$output/4_grep.txt
 grep -oP "\.do"  *>>$output/4_grep.txt
