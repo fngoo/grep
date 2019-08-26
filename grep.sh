@@ -1600,3 +1600,5 @@ grep -oP "\?account\=" *|tee -a   $output/4_grep.txt
 grep -oP "\?id\=" *|tee -a   $output/4_grep.txt
 grep -oP "\_02ddd67d5586\_key\=" *|tee -a   $output/4_grep.txt
 grep -oP "\_8382f1c42598\_iv\=" *|tee -a   $output/4_grep.txt
+touch $output/4_grep_end.txt;sort output/4_grep.txt|uniq|tee -a $output/4_grep_end.txt
+
