@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 output=$output
 for i in `seq 1 $(ls -l $output/3_js|grep "^-"| wc -l)
 do
