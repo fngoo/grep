@@ -1,6 +1,6 @@
 #!/bin/bash
 output=$output
-for i in `seq 1 $(ls -l $output/3_js|grep "^-"| wc -l)
+for i in `seq 1 $(ls -l $output/3_js|grep "^-"| wc -l)`
 do
 grep -oP "\.html" $i.js|tee -a   $output/4_grep.txt
 grep -oP "\.do" $i.js|tee -a   $output/4_grep.txt
