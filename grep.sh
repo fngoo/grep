@@ -17,4 +17,4 @@ rg  -oPHn  "addr..............................................................."
 rg  -oPHn  "priva..............................................................." *.js|tee -a   $output/4_grep.txt
 rg  -oPHn  "smpt..............................................................." *.js|tee -a   $output/4_grep.txt
 rm -rf $output/3_js
-touch $output/4_gp.txt ; sort $output/4_grep.txt|uniq|tee -a $output/4_gp.txt ; rm $output/4_grep.txt 
+touch $output/4_gp.txt ; sort -u $output/4_grep.txt|uniq|tee -a $output/4_gp.txt ; rm $output/4_grep.txt 
