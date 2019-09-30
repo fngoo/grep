@@ -1,5 +1,6 @@
 #!/bin/bash
 output=$output
+cd $output/3_js
 rg  -oPHn  "pwd ..............................................................." *.js|tee -a   $output/4_grep.txt
 rg  -oPHn  "pwd:..............................................................." *.js|tee -a   $output/4_grep.txt
 rg  -oPHn  "pwd=..............................................................." *.js|tee -a   $output/4_grep.txt
