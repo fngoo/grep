@@ -7,18 +7,12 @@ rg  -oPHn  "pwd=........................." *.js >>   $output/4_grep.txt
 rg  -oPHn  "pass ........................" *.js >>   $output/4_grep.txt
 rg  -oPHn  "pass:........................." *.js >>   $output/4_grep.txt
 rg  -oPHn  "pass=........................." *.js >>   $output/4_grep.txt
-rg -oPHn "account ........................." *.js >> $output/4_grep.txt
-rg -oPHn "account:........................." *.js >> $output/4_grep.txt
-rg -oPHn "account=........................." *.js >> $output/4_grep.txt
 rg -oPHn "addr ........................." *.js >> $output/4_grep.txt
 rg -oPHn "addr:........................." *.js >> $output/4_grep.txt
 rg -oPHn "addr=........................." *.js >> $output/4_grep.txt
 rg -oPHn "admin ........................." *.js >> $output/4_grep.txt
 rg -oPHn "admin:........................." *.js >> $output/4_grep.txt
 rg -oPHn "admin=........................." *.js >> $output/4_grep.txt
-rg -oPHn "ip ........................." *.js >> $output/4_grep.txt
-rg -oPHn "ip:........................." *.js >> $output/4_grep.txt
-rg -oPHn "ip=........................." *.js >> $output/4_grep.txt
 rg -oPHn "manager ........................." *.js >> $output/4_grep.txt
 rg -oPHn "manager:........................." *.js >> $output/4_grep.txt
 rg -oPHn "manager=........................." *.js >> $output/4_grep.txt
