@@ -1,18 +1,18 @@
 #!/bin/bash
 output=$output
 cd $output/3_js
-rg  -oPHn  "pwd ........................." *.js >>   $output/4_grep.txt
-rg  -oPHn  "pwd:........................." *.js >>   $output/4_grep.txt
-rg  -oPHn  "pwd=........................." *.js >>   $output/4_grep.txt
-rg  -oPHn  "pass ........................" *.js >>   $output/4_grep.txt
-rg  -oPHn  "pass:........................." *.js >>   $output/4_grep.txt
-rg  -oPHn  "pass=........................." *.js >>   $output/4_grep.txt
-rg -oPHn "admin ........................." *.js >> $output/4_grep.txt
-rg -oPHn "admin:........................." *.js >> $output/4_grep.txt
-rg -oPHn "admin=........................." *.js >> $output/4_grep.txt
-rg -oPHn "manager ........................." *.js >> $output/4_grep.txt
-rg -oPHn "manager:........................." *.js >> $output/4_grep.txt
-rg -oPHn "manager=........................." *.js >> $output/4_grep.txt
+rg  -oPHn  "pwd .................................................." *.js >>   $output/4_grep.txt
+rg  -oPHn  "pwd:.................................................." *.js >>   $output/4_grep.txt
+rg  -oPHn  "pwd=.................................................." *.js >>   $output/4_grep.txt
+rg  -oPHn  "pass ................................................." *.js >>   $output/4_grep.txt
+rg  -oPHn  "pass:.................................................." *.js >>   $output/4_grep.txt
+rg  -oPHn  "pass=.................................................." *.js >>   $output/4_grep.txt
+rg -oPHn "admin .................................................." *.js >> $output/4_grep.txt
+rg -oPHn "admin:.................................................." *.js >> $output/4_grep.txt
+rg -oPHn "admin=.................................................." *.js >> $output/4_grep.txt
+rg -oPHn "manager .................................................." *.js >> $output/4_grep.txt
+rg -oPHn "manager:.................................................." *.js >> $output/4_grep.txt
+rg -oPHn "manager=.................................................." *.js >> $output/4_grep.txt
 
 
 rm -rf $output/3_js
