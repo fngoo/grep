@@ -13,6 +13,10 @@ rg -oPHn "admin=.................................................." *.js >> $out
 rg -oPHn "manager .................................................." *.js >> $output/4_grep.txt
 rg -oPHn "manager:.................................................." *.js >> $output/4_grep.txt
 rg -oPHn "manager=.................................................." *.js >> $output/4_grep.txt
+rg  -oPHn  "oracle" *.js >> $output/4_grep.txt
+rg  -oPHn  "mysql" *.js >> $output/4_grep.txt
+rg  -oPHn  "config" *.js >> $output/4_grep.txt
+rg  -oPHn  "url:" *.js >> $output/4_grep.txt
 
 
 rm -rf $output/3_js
