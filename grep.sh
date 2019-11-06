@@ -15,7 +15,6 @@ rg -oPHn "manager:.................................................." *.js >> $o
 rg -oPHn "manager=.................................................." *.js >> $output/4_grep.txt
 rg  -oPHn  "oracle.................................................." *.js >> $output/4_grep.txt
 rg  -oPHn  "mysql...................................................." *.js >> $output/4_grep.txt
-rg  -oPHn  "url:........................................................" *.js >> $output/4_grep.txt
 
 cd /root/script/3_httprobe
 rm -rf $output/3_js
