@@ -1,7 +1,6 @@
 #!/bin/bash
 output=$output
 cd $output/3_js
-rg -oPHn "http.*?//.*?(?=\")" *.js >>   $output/4_grep.txt
 rg  -oPHn  "pwd .................................................." *.js >>   $output/4_grep.txt
 rg  -oPHn  "pwd:.................................................." *.js >>   $output/4_grep.txt
 rg  -oPHn  "pwd=.................................................." *.js >>   $output/4_grep.txt
