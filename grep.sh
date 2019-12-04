@@ -22,3 +22,4 @@ rm -rf $output/3_js
 sed -e '/+/d' $output/4_grep.txt | sed -e '/?/d' | sed -e '/!/d' | sed -e '/&/d' > 1.txt ; mv 1.txt $output/4_grep.txt
 touch $output/4_gp.txt ; cat $output/4_grep.txt >> $output/4_gp.txt ; rm $output/4_grep.txt 
 date "+%Y-%m-%d_%H:%M:%S" >> /root/date.txt ; echo 'js' >> /root/date.txt
+exit
